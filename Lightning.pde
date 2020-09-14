@@ -15,7 +15,7 @@ void draw()
 ellipse(0, 150, 100, 100);
 noFill();
 ellipse(0, 150, 100, 100);
-while(endX>Double.POSITIVE_INFINITY);
+while (startX<50);
 {
 stroke(((int) (Math.random()*255)),((int) (Math.random()*255)),((int) (Math.random()*255)));
 endX = startX + ((int) (Math.random()*10));
